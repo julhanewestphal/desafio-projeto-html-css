@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -13,4 +14,21 @@ $('.owl-carousel').owlCarousel({
             items:5
         }
     }
+=======
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+>>>>>>> de066ab1f206010bdd45b063ee2896becf25b7a8
 })
